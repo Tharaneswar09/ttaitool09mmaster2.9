@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+.slider{
+  width: 300px;
+  height: 400px;
+  background: url("https://i.ibb.co/Gn1CBwQ/IMG-20230727-110209.jpg");
+  margin: 100px auto;
+  animation: slide 20s infinite;
+  brightness: 1000px;
+  border-color: green;
+}
+@keyframes slide{
+  25%{
+    background: url("https://i.ibb.co/yNmrT7y/IMG-20230727-110222.jpg");
+    }
+    50%{
+    background: url("https://i.ibb.co/4p2dfQG/IMG-20230727-110237.jpg");
+    }
+    75%{
+    background: url("https://i.ibb.co/nm8tr4r/IMG-20230727-110301.jpg");
+    }
+    100%{
+    background: url("https://i.ibb.co/Gn1CBwQ/IMG-20230727-110209.jpg");
+    }
+}
+MARQUEE{
+  color: red;
+  background-color: pink;
+  border-radius: 27px; 
+}
+.container{
+  color: white;
+  background-color: #4EE2EC;
+  border-radius: 30px; 
+  overflow: auto;
+}
+.flex-box{
+  color: white;
+  height: 450px;
+  width: 350px;
+  background: black;
+  border-color: white;
+  text-align: center;
+  border-radius: 30px;
+  overflow: auto;
+  box-shadow: 0 0 0 8px white;
+
+}
+img{
+  height: 100px;
+  width: 100px;
+  box-shadow: 0 0 0 5px white;
+  border-radius: 30px;
+  }
+details{
+  overflow: auto;
+}
+button{
+    border-radius: 30px;
+}
+button:active{
+    background-color: #16E2F5;
+}
